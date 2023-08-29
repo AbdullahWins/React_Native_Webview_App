@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProject",
-    "slug": "AwesomeProject",
+    "name": "PetAi",
+    "slug": "PetAi",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,13 +19,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abdullahwins.petai"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "APP_NAME": "PetAi"
+      "APP_NAME": "PetAi",
+      "eas": {
+        "projectId": "d0d2148c-5180-4566-b149-2133d968f605"
+      }
     }
   }
 }
