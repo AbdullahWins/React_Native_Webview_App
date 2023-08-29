@@ -60,6 +60,12 @@ Make sure you have the following tools installed before proceeding:
 
    This will build and launch the app on the iOS simulator.
 
+## Building The App
+
+```bash
+eas build -p android --profile preview2
+```
+
 ## App Usage
 
 This app displays a web page within the WebView component. You can customize the URL by modifying the `source` prop in the `WebView` component in `src/components/WebViewScreen.js`.
