@@ -1,13 +1,13 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import WebView from "react-native-webview"; // Import WebView from the correct package
+import { APP_WEB_URL } from "../config/env/env";
 
 const WebViewApp = () => {
-
   return (
     <View style={styles.container}>
       <WebView
-        source={{ uri: "https://petai.netlify.app/" }} // Replace with your desired URL
+        source={{ uri: APP_WEB_URL }} // Replace with your desired URL
         style={styles.webview}
       />
     </View>
