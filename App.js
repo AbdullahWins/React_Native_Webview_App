@@ -30,11 +30,8 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      {/* Set the StatusBar to fullscreen */}
       <StatusBar hidden />
-
       <Stack.Navigator initialRouteName="WebView">
-        {/* Use the 'options' prop to hide the header and set a fullscreen app */}
         <Stack.Screen
           name={APP_NAME}
           component={WebViewApp}
